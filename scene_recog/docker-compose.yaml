@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  test_script:
+    container_name: lab2-gorodov
+    build: .
+    ports:
+      - "8080:8080"
